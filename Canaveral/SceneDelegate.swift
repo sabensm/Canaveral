@@ -20,7 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        
+        //TODO: I'm not sure exaclty why I had to add this to the SceneDelegate to get Xcode to stop throwing errors. I know it's something to do with giving Preview something to render, but need to learn more about it.
+        
+        let contentView = ContentView(missionName: "Hi", missionTime: "Hi", launchSite: "Hi")
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
