@@ -14,7 +14,7 @@ Welcome to **Canaveral**, an iOS app providing comprehensive SpaceX launch detai
 ## Roadmap
 
 | Status | Goals | Notes |
-| :-: | :: | :: |
+| :---: | --- | --- |
 | ❌ | Show Upcoming & Previous Launch Details | This would be bare minimum required to submit to App Store |
 | ❌ | Show list of Rockets & Details | This would build upon the first release and add more detail around the operation. |
 | ❌ | Local Launch Notifications | Sign up for push notifications on a per launch, or all launches basis |
